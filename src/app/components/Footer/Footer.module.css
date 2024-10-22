@@ -1,0 +1,172 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 1920px;
+    height: 95px;
+    background: #FFFFFF;
+    flex: none;
+    order: 6;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 6;
+    color: #000;
+}
+
+.footerLogo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 126.81px;
+    height: 32px;
+    gap: 10px;
+    margin: 31.5px 0px;
+    display: flex;
+    padding: 0;
+}
+
+.companyLogo {
+    width: 55.81px;
+    height: 32px;
+}
+
+.companyName {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #0F172A;
+    padding-top: 2.5px;
+    padding-bottom: 2px;
+    margin-left: -2px;
+    width: 63px;
+    height: 27px;
+}
+
+.company {
+    width: 792.6px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #0F172A;
+    margin: 36px 24px;
+}
+
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 792.6px;
+    height: 47px;
+    gap: 24px;
+    padding: 12px 0px;
+    margin: 24px 0px;
+}
+
+.footerLinks a:hover {
+    color: #7E22CE;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 343px;
+        height: 198px;
+        order: 7;
+        align-self: stretch;
+        flex-grow: 0;
+        padding: 24px 0px;
+        margin: 0px 16px;
+        background: #FFFFFF;
+    }
+
+    .footerLogo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 126.81px;
+        height: 32px;
+        gap: 10px;
+        padding: 0;
+        border: 0;
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+
+    .companyLogo {
+        width: 55.81px;
+        height: 32px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .companyName {
+        width: 63px;
+        height: 27px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        color: #0F172A;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-left: -2px;
+    }
+
+    .company {
+        width: 100%;
+        height: 23px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+        text-align: center;
+        color: #0F172A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+
+    .footerLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 343px;
+        height: 47px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 16px;
+
+    }
+}

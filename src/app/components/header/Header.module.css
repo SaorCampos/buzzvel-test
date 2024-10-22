@@ -1,0 +1,291 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 24px 80px;
+    background-color: #f9fafb;
+    width: 100%;
+    height: 112px;
+    position: relative;
+    z-index: 7;
+    align-self: stretch;
+    flex-grow: 0;
+    flex: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    gap: 38px;
+    flex-grow: 1;
+    margin: 0;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 81px;
+    height: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    color: #0F172A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    flex-grow: 1;
+    gap: 16px;
+    margin: 0 760px 0 38px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between; /* Usar space-between para distribuir os itens */
+    padding: 12px 8px;
+    gap: 8px;
+    width: auto; /* Ajustar automaticamente conforme o conteúdo */
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 12px 8px;
+    gap: 8px;
+    width: 85px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.solutions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 8px;
+    gap: 8px;
+    width: 88px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 8px;
+    gap: 8px;
+    width: 81px;
+    height: 48px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.configure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 8px;
+    gap: 8px;
+    width: 90px;
+    height: 48px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.nav a {
+    width: 69px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #0F172A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nav a:hover {
+    color: #7E22CE;
+    transform: scale(1.1);
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 2px;
+    gap: 16px;
+    width: 100%;
+    height: 64px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    transition: color 0.3s ease;
+}
+
+.actions:hover .phone {
+    color: #7E22CE;
+    font-weight: bolder;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px;
+    isolation: isolate;
+    width: auto;
+    height: 48px;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #0369A1;
+    transition: color 0.3s ease;
+}
+
+.headphone {
+    margin-right: 16px;
+}
+
+.phoneNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #0369A1;
+    white-space: nowrap;
+}
+
+.quoteButtonPurple {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    width: 306px;
+    height: 64px;
+    border: 2px solid #581C87;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    background-color: transparent;
+}
+
+.quoteButtonPurple:hover {
+    background-color: #581C87;
+    border-color: #581C87;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.quoteButtonPurple:hover .requestPurple {
+    color: #FCD34D; /* Muda a cor do texto no hover */
+}
+
+.quoteButtonPurple:hover .arrowPurple {
+    color: #FCD34D; /* Muda a cor da seta no hover */
+}
+
+.requestPurple {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #581C87;
+    transition: color 0.3s ease; 
+    margin: 0px 24px;
+}
+
+.arrowPurple {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: #581C87;
+    transition: color 0.3s ease; 
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 16px 40px;
+    }
+
+    .container {
+        gap: 24px;
+    }
+
+    .navContainer {
+        margin: 0 320px 0 24px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .header {
+        padding: 16px;
+    }
+
+    .navContainer {
+        margin: 0 160px 0 24px;
+    }
+
+    .container {
+        gap: 16px;
+    }
+
+    .quoteButtonPurple {
+        width: 80%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        display: none;
+    }
+}

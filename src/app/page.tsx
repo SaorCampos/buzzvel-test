@@ -1,10 +1,11 @@
 import React from 'react';
 import Footer from './components/Footer/Footer';
+import Header from './components/header/Header';
 
 const Layout: React.FC = ({ children }) => {
   return (
     <div>
-      {/* Outros componentes globais, como o header */}
+      <Header />
       
       <main>{children}</main>
       

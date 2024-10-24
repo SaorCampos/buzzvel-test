@@ -20,9 +20,9 @@ const Footer: React.FC = () => {
                 <p>@ {year} {company.name}, Inc. {company.rights}</p>
             </div>
             <div className={styles.footerLinks}>
-                <a href="/terms">Terms</a>
-                <a href="/privacy">Privacy</a>
-                <a href="/support">Support</a>
+                <a href="/">Terms</a>
+                <a href="/">Privacy</a>
+                <a href="/">Support</a>
             </div>
         </footer>
     );

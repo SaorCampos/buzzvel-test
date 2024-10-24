@@ -1,0 +1,47 @@
+.quoteButtonPurple {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    width: 306px;
+    height: 64px;
+    border: 2px solid #581C87;
+    border-radius: 100px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.quoteButtonPurple:hover {
+    background-color: #581C87;
+    border-color: #581C87;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.requestPurple {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #581C87;
+    transition: color 0.3s ease;
+    margin-right: 16px;
+}
+
+.arrowPurple {
+    width: 24px;
+    height: 24px;
+    color: #581C87;
+    transition: color 0.3s ease;
+}
+
+.quoteButtonPurple:hover .requestPurple {
+    color: #FCD34D;
+}
+
+.quoteButtonPurple:hover .arrowPurple {
+    color: #FCD34D;
+}

@@ -6,7 +6,7 @@
     align-items: flex-start;
     padding-left: 80px;
     padding-right: 80px;
-    width: 100%;
+    width:1920px;
     height: 95px;
     background: #FFFFFF;
     flex: none;
@@ -88,13 +88,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 343px;
+        width: auto;
         height: 198px;
         order: 7;
         align-self: stretch;
         flex-grow: 0;
-        padding: 24px 0px;
-        margin: 0px 16px;
         background: #FFFFFF;
     }
 
@@ -161,13 +159,12 @@
         align-items: center;
         padding: 0px;
         gap: 24px;
-        width: 343px;
+        width: auto;
         height: 47px;
         flex: none;
         order: 2;
-        align-self: stretch;
         flex-grow: 0;
         margin: 24px 16px;
-
+        text-align: center;
     }
 }

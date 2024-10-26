@@ -1,0 +1,193 @@
+.BodyUpperPartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    gap: 80px;
+    isolation: isolate;
+    width: 1920px;
+    height: 1282px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+    background: #FFFFFF;
+}
+
+.BodyUpperPartTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 900px;
+    height: 188px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.BodyUpperPartTextCaption {
+    width: 900px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #D97706;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.BodyUpperPartTextSecondaryHeadLine {
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 900px;
+    height: 62px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 62px;
+    text-align: center;
+    color: #0F172A;
+}
+
+.BodyUpperPartTextParagraph {
+    width: 900px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #0F172A;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.BodyUpperPartTextScreen {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 1520px;
+    height: 854px;
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+@media (max-width: 800px) {
+    .BodyUpperPartContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 48px 16px;
+        gap: 64px;
+        isolation: isolate;
+        width: 375px;
+        height: 604px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyUpperPartTextContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 343px;
+        height: 198px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        z-index: 1;
+    }
+
+    .BodyUpperPartTextCaption {
+        width: 343px;
+        height: 18px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #D97706;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyUpperPartTextSecondaryHeadLine {
+        width: 343px;
+        height: 36px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        color: #0F172A;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyUpperPartTextParagraph {
+        width: 343px;
+        height: 112px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #0F172A;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyUpperPartTextScreen {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 358px;
+        height: 246px;
+        background: #FFFFFF;
+        border: 5px solid #FFFFFF;
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        z-index: 2;
+    }
+}

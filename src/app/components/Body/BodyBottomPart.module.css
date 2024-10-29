@@ -1,0 +1,187 @@
+.BodyBottomPartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    gap: 80px;
+    width: 1920px;
+    height: 949px;
+    background-color: #7E22CE;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    z-index: 5;
+}
+
+.BodyBottomPartTextSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.BodyBottomPartTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 894px;
+    height: 154px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.BodyBottomPartTitle {
+    width: 894px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FCD34D;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.BodyBottomPartHeadLine {
+    width: 894px;
+    height: 124px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.BodyBottomPartRequestQuoteSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px;
+    gap: 16px;
+    width: 306px;
+    height: 149px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+.BodyBottomPartMacBook {
+    width: 1008px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 80px;
+}
+
+@media (max-width: 800px) {
+    .BodyBottomPartContainer {
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 48px 16px;
+        gap: 64px;
+        isolation: isolate;
+        width: 375px;
+        height: 615.1px;
+        background: #581C87;
+        flex: none;
+        order: 6;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyBottomPartTextSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        width: 358px;
+        height: 132px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyBottomPartTitle {
+        width: 358px;
+        height: 18px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #FCD34D;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyBottomPartHeadLine {
+        width: 358px;
+        height: 106px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .BodyBottomPartRequestQuoteSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .BodyBottomPartText {
+        width: 358px;
+        height: 23px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .BodyBottomPartMacBook {
+        width: 358px;
+        height: 196.1px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        z-index: 2;
+    }
+}

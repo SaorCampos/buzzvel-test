@@ -1,20 +1,21 @@
-.BodyMiddlePartContainer {
+.BodySecondUpperPartContainer {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     padding: 80px;
+    gap: 160px;
     isolation: isolate;
     width: 1920px;
     height: 1060px;
     flex: none;
-    order: 3;
+    order: 2;
     flex-grow: 0;
-    z-index: 3;
+    z-index: 2;
     background: #FFFFFF;
-    gap: 160px;
 }
 
-.BodyMiddlePartTextContainer {
+.BodySecondUpperPartTextContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,7 +29,7 @@
     z-index: 1;
 }
 
-.BodyMiddlePartTextSection {
+.BodySecondUpperPartTextSection {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -43,7 +44,7 @@
     margin-bottom: 48px;
 }
 
-.BodyMiddlePartCaption {
+.BodySecondUpperPartCaption {
     width: 1180px;
     height: 22px;
     font-family: 'Roboto';
@@ -58,7 +59,7 @@
     flex-grow: 0;
 }
 
-.BodyMiddlePart {
+.BodySecondUpperPart {
     width: 1180px;
     height: 62px;
     font-family: 'Roboto';
@@ -73,7 +74,7 @@
     flex-grow: 0;
 }
 
-.BodyMiddlePartHeadLine {
+.BodySecondUpperPartHeadLine {
     width: 1180px;
     height: 62px;
     font-family: 'Roboto';
@@ -88,7 +89,7 @@
     flex-grow: 0;
 }
 
-.BodyMiddlePartParagraph {
+.BodySecondUpperPartParagraph {
     width: 1180px;
     height: 36px;
     font-family: 'Roboto';
@@ -103,7 +104,7 @@
     flex-grow: 0;
 }
 
-.BodyMiddlePartRow1 {
+.BodySecondUpperPartRow1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -117,7 +118,7 @@
     flex-grow: 0;
 }
 
-.BodyMiddlePartBlock1 {
+.BodySecondUpperPartBlock1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +134,7 @@
     gap: 16px;
 }
 
-.BodyMiddlePartBlock1Title {
+.BodySecondUpperPartBlock1Title {
     width: 566px;
     max-height: 27px;
     font-family: 'Roboto';
@@ -147,7 +148,7 @@
     flex-grow: 1;
 }
 
-.BodyMiddlePartBlock1Text {
+.BodySecondUpperPartBlock1Text {
     width: 566px;
     max-height: 58px;
     font-family: 'Roboto';
@@ -162,15 +163,8 @@
     flex-grow: 0;
 }
 
-.BodyMiddlePartMobile {
-    box-sizing: border-box;
-    width: 420px;
-    height: 900px;
-    flex: none;
-}
-
 @media (max-width: 800px) {
-    .BodyMiddlePartContainer {
+    .BodySecondUpperPartContainer {
         grid-template-columns: repeat(1, 1fr);
         display: flex;
         flex-direction: column;
@@ -186,13 +180,13 @@
         flex-grow: 0;
     }
 
-    .BodyMiddlePartTextContainer {
+    .BodySecondUpperPartTextContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .BodyMiddlePartTextSection {
+    .BodySecondUpperPartTextSection {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -207,7 +201,7 @@
         z-index: 0;
     }
 
-    .BodyMiddlePartCaption {
+    .BodySecondUpperPartCaption {
         width: 343px;
         height: 18px;
         font-family: 'Roboto';
@@ -223,7 +217,7 @@
         flex-grow: 0;
     }
 
-    .BodyMiddlePartHeadLine {
+    .BodySecondUpperPartHeadLine {
         width: 343px;
         height: 36px;
         font-family: 'Roboto';
@@ -239,7 +233,7 @@
         flex-grow: 0;
     }
 
-    .BodyMiddlePartParagraph {
+    .BodySecondUpperPartParagraph {
         width: 343px;
         height: 68px;
         font-family: 'Roboto';
@@ -255,7 +249,7 @@
         flex-grow: 0;
     }
 
-    .BodyMiddlePartRow1 {
+    .BodySecondUpperPartRow1 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -271,7 +265,7 @@
         z-index: 1;
     }
 
-    .BodyMiddlePartBlock1 {
+    .BodySecondUpperPartBlock1 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -286,7 +280,7 @@
         z-index: 0;
     }
 
-    .BodyMiddlePartBlock1Title {
+    .BodySecondUpperPartBlock1Title {
         width: 147.5px;
         height: 22px;
         font-family: 'Roboto';
@@ -301,7 +295,7 @@
         flex-grow: 1;
     }
 
-    .BodyMiddlePartBlock1Text {
+    .BodySecondUpperPartBlock1Text {
         width: 147.5px;
         height: 135px;
         font-family: 'Roboto';
@@ -317,7 +311,7 @@
         flex-grow: 0;
     }
 
-    .BodyMiddlePartMobile {
+    .BodySecondUpperPartMobile {
         display: flex;
         flex-direction: row;
         align-items: center;

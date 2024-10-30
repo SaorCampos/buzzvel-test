@@ -1,5 +1,5 @@
 ## Overview
-  This is a project developed in Next.js, using TypeScript and Tailwind CSS for styling. It was started with the create-next-app command and follows a modular structure in the src directory, where the main application modules are organized into subdirectories such as app, core, and ports.
+This is a project developed in Next.js, using TypeScript and Tailwind CSS for styling. It was started with the create-next-app command and follows a modular structure in the src directory, where the main application modules are organized into subdirectories such as app, core, and ports.
 
 ## Project Structure
 * app: Contains the main pages and components of the application.
@@ -12,8 +12,7 @@
 
 ## Installation
 Clone the repository and install the dependencies:
-```
-bash
+```bash
 git clone https://github.com/SaorCampos/buzzvel-test.git
 cd buzzvel-test-master
 npm install
@@ -28,6 +27,6 @@ npm run dev
 The project will be available at http://localhost:3000
 
 ## Modular Structure
-app: Main directory of routes and visual components.
-core: Contains the fundamental business logic and services.
-ports: Interfaces and adapters for communicating with APIs or other external modules.
+* app: Main directory of routes and visual components.
+* core: Contains the fundamental business logic and services.
+* ports: Interfaces and adapters for communicating with APIs or other external modules.

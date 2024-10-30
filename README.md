@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Overview
+  This is a project developed in Next.js, using TypeScript and Tailwind CSS for styling. It was started with the create-next-app command and follows a modular structure in the src directory, where the main application modules are organized into subdirectories such as app, core, and ports.
 
-## Getting Started
+## Project Structure
+* app: Contains the main pages and components of the application.
+* core: Houses the central logic of the application, including services and business logic.
+* ports: Possibly implements ports and adapters for communicating with external APIs or internal modules.
+  
+## Prerequisites
+* Node.js: Version 16 or higher.
+* npm: To manage packages and dependencies.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Installation
+Clone the repository and install the dependencies:
+```
+bash
+git clone https://github.com/SaorCampos/buzzvel-test.git
+cd buzzvel-test-master
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running the Development Server
+To start the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project will be available at http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Modular Structure
+app: Main directory of routes and visual components.
+core: Contains the fundamental business logic and services.
+ports: Interfaces and adapters for communicating with APIs or other external modules.
